@@ -1,0 +1,36 @@
+/*NOTE: This file is intended for programmers. Aspro technical support is not advised to work with him.*/
+/* Examples (uncomment to use):*/
+/* Expand site width */
+/* body .wrapper { max-width: 1400px !important;  } */
+/* Set site background image */
+/* body {  background: url(image_source) top no-repeat; }
+/* Hide compare button */
+/* a.compare_item { display: none !important;  }*/
+.logo-row .logo img {
+	max-height: 250px;
+}
+
+/*цвет основной шапки*/
+.header--fixed-1 {background-color:#2B2C41 !important;}
+
+/* цвет логотипа в фиксированном меню при открытии бургер меню(три полоски) */
+.line-block.line-block--100.line-block--32-1400 .line-block__item:first-child {background-color:#2B2C41 !important; border-radius:10px; padding:7px 0px;}
+
+/* цвет строки в мобильном (выдвигающемся) меню */
+.mobilemenu__item:first-child {background-color:#2B2C41 !important;}
+
+/* служебное */
+.header-menu__link.light-opacity-hover.fill-theme-hover.menu-light-text.banner-light-text.dark_link {color:white;}
+
+/* цвет фона бургерменю */
+.header--fixed-1 .burger.light-opacity-hover.fill-theme-hover.banner-light-icon-fill.menu-light-icon-fill.fill-dark-light-block {background-color: white; border-radius: 10px;}
+
+/*затемнение при наведении на бургер-меню в фиксированной шапке */
+.header--fixed-1 .burger.light-opacity-hover.fill-theme-hover.banner-light-icon-fill.menu-light-icon-fill.fill-dark-light-block:hover {opacity:0.7;}
+
+.logo {height:88px;}
+
+@media(max-width:998px) {
+.logo {height:55px;}
+
+}
