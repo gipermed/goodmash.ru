@@ -267,34 +267,4 @@ $APPLICATION->SetTitle("Каталог");
 		"VISIBLE_PROP_COUNT" => "6"
 	)
 );?>
-<p><h3>Возможно, Вас заинтересует:</h3></p>
-<?$APPLICATION->IncludeComponent(
-	"ipgraph:karusel", 
-	".default", 
-	array(
-		"COMPONENT_TEMPLATE" => ".default",
-		"IBLOCK_TYPE" => "aspro_allcorp3_catalog",
-		"IBLOCK_ID" => "42",
-		"USE_IBLOCK_ID" => "N",
-		"USE_SECTION_ID" => "Y",
-		"USE_ELEMENT_ID" => "N",
-		"ELEMENT_COUNT_ON_PAGE" => "3",
-		"ELEMENT_COUNT" => "30",
-		"HEIGHT_WRAP" => "210",
-		"OFFERS_SORT_FIELD" => "sort",
-		"OFFERS_SORT_ORDER" => "asc",
-		"USE_ELEMENT_NAME" => "Y",
-		"USE_ELEMENT_PRICE" => "N",
-		"PICTURE_FROM" => "0",
-		"AUTO_SCROLL" => "N",
-		"CACHE_TYPE" => "N",
-		"CACHE_TIME" => "0",
-		"SCROLL_SPEEP" => "3000",
-		"SECTION_ID" => array(
-			0 => "104",
-			1 => "",
-		),
-		"INCLUDE_SUBSECTIONS" => "Y"
-	),
-	false
-);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
