@@ -416,4 +416,6 @@ $APPLICATION->SetTitle("Каталог");
 		)
 	),
 	false
-);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+);?>
+<p></p>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
